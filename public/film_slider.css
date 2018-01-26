@@ -1,0 +1,120 @@
+
+
+
+.slider{
+
+
+    background-color: black;
+}
+
+
+
+.slider_buttons{
+
+
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+.slider_buttons{
+
+
+    background-color: black;
+
+
+
+}
+
+
+
+.slider_ul{
+
+
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    padding-right: 0px;
+
+
+
+}
+
+
+.slider_label{
+
+
+
+}
+
+
+
+.slider_ul_li{
+    direction: rtl;
+    margin-right: 50px;
+    margin-bottom: 0px;
+
+    padding-right: 0px;
+
+
+
+
+
+
+}
+.slider_ul_li1{
+
+    margin-right: 0px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel_wrapper{
+
+
+    border: solid;
+
+}
+
+
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+
+    border: solid;
+
+
+
+}

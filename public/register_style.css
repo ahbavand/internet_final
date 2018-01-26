@@ -1,0 +1,270 @@
+
+@font-face {
+    font-family: 'yekan';
+    src:url('fonts/Yekan.eot?#') format('eot'),
+    url('fonts/Yekan.woff') format('woff'),
+    url('fonts/Yekan.ttf') format('truetype');
+}
+
+
+
+
+*{
+
+
+    direction: rtl;
+    font-family: yekan;
+
+
+
+}
+
+
+.main_menu {
+
+    margin-right: 30%;
+    margin-top: 2%;
+
+    height: 770px;
+    width: 40%;
+    background-color: white;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+}
+
+.top{
+
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: darkgrey;
+
+
+}
+
+.close_span{
+    position: relative;
+    top: 5px;
+
+    vertical-align: middle;
+    margin-right: 3%;
+
+
+    font-size: 30px;
+    color: #eeeeee;
+}
+
+.close_icon{
+
+
+    box-sizing: border-box;
+
+    font-weight: 400;
+    line-height: 1;
+
+
+
+
+
+
+}
+
+
+.but1{
+    font-size: 16px;
+
+    background-color: #eee;
+    border: none;
+    float:right;
+    width: 40%;
+    height: 60px;
+    margin-left: 0px;
+}
+
+.but2{
+    background-color: white;
+    margin-bottom:22px ;
+    font-size: 16px;
+    border: none;
+    float: right;
+    width: 60%;
+    height: 60px;
+    margin-right: 0px;
+
+}
+
+.middle2{
+
+    margin-bottom: 32px;
+
+    border: none;
+    font-size: 16px;
+    color: white;
+
+    margin-right: 22.5%;
+
+    width: 55%;
+    height: 40px;
+    align-items: center;
+    background-color: #CF0000;
+    border-radius: 5px;
+
+
+
+}
+
+
+
+.middle2:hover{
+    background-color: red;
+
+
+
+}
+
+
+
+
+.information{
+    clear: both;
+}
+
+
+.label{
+    position: relative;
+    top: 10px;
+    margin-right: 12%;
+    color: darkgrey;
+
+
+}
+
+.star{
+    position: relative;
+    top: 10px;
+
+    color: red;
+
+
+}
+
+.text_box{
+
+    font-size: 16px;
+
+    border-radius: 2px;
+    border: solid;
+    border-width: thin;
+    background-color: #f6f8fa;
+    border-color: #e3e4e8;
+    float: left;
+    margin-left: 15%;
+
+    width: 48%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+
+
+.captcha_image{
+
+
+    float: left;
+    width: 14%;
+    border: solid;
+    border-width: thin;
+    margin-left:15%;
+    border-color: #e3e4e8;
+    border-radius: 2%;
+
+
+
+
+}
+
+
+.text_box_secure_code{
+
+    width: 34%;
+    margin-left: 0px;
+
+}
+
+
+
+
+
+
+.chek_information{
+
+    clear: both;
+}
+
+
+.chek_box{
+
+
+
+    margin-top: 5%;
+    margin-right: 34%;
+
+}
+
+.chek_box_text{
+    color: darkgrey;
+
+    margin-left: 17%;
+
+}
+
+
+.end_button{
+    border: none;
+    font-size: 20px;
+    color: white;
+
+    background-color:blue;
+
+    border-radius: 4px;
+
+    margin-top: 4%;
+    width: 33%;
+
+    height: 45px;
+
+    margin-right: 34%;
+
+}
+
+
+.end_button:hover{
+
+
+    background-color: greenyellow;
+}
+
+
+
+
+
+.errspan{
+    position: relative;
+    right: 240px;
+    top:9px;
+    color: #cccccc;
+
+
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,143 @@
+
+
+*{
+    direction: rtl;
+
+
+
+
+}
+
+
+ul{
+
+
+    overflow: hidden;
+    background-color: #eeeeee;
+
+
+}
+
+
+li {
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    list-style-type: none;
+
+
+
+}
+.but{
+
+    color: #3a6ee8;
+    padding: 11px 8px;
+    border: 1px solid #3a6ee8;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    float: right;
+    border-radius: 6px;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 42px;
+    font-weight: 400;
+    display: inline-block;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 130px;
+    font-size: 13px;
+
+
+}
+
+.but:hover{
+
+    background-color: #3a6ee8;
+    color: white;
+
+
+}
+
+
+
+
+.but_1{
+
+    margin-top: 10px;
+
+
+    padding: 0 10px!important;
+    vertical-align: bottom;
+    color: #fff!important;
+    height: 42px!important;
+    width: 42px;
+    line-height: 42px!important;
+    border-radius: 50%!important;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 20px!important;
+    background-color: #3a6ee8;
+    border: none;
+    float: right;
+
+
+}
+
+
+.but_1:hover{
+
+    background-color: dodgerblue;
+
+
+
+}
+
+
+
+.search1 {
+    position: relative;
+    margin-top: 10px;
+    float:left;
+    margin: 4px 2px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 380px;
+    height: 50px;
+    font-size: 16px;
+    background-image: url('search.png') ;
+    background-size: 30px 30px ;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-right: 10px;
+    border: none;
+    background-color: #eeeeee;
+}
+
+.nav_button{
+    color: darkgrey;
+    border: none;
+    background-color: inherit;
+    text-align: right;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+
+.nav_button:hover{
+
+
+    color: #1A1717;
+}
+
+

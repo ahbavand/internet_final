@@ -1,0 +1,183 @@
+
+
+
+.prfile_picture{
+
+    border-radius: 50%;
+    margin-top: 10%;
+
+}
+
+
+.comment_box{
+
+    border-radius: 4px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid;
+    border-color: #1A1717;
+    margin-top: 5%;
+
+}
+
+
+.comment_text{
+
+
+    width: 100%;
+    height: 80%;
+    border: none;
+    background-color: inherit;
+
+}
+
+
+
+
+
+.comment_chek{
+
+
+    width: 50px;
+
+
+}
+
+
+
+
+.submit_comment{
+    color: whitesmoke;
+
+
+    border-radius: 4px;
+    background-color: mediumseagreen;
+
+    width: 120px;
+    height: 40px;
+
+
+
+}
+
+
+.range_bar {
+
+    margin-top: 60px;
+
+    background-color: blue;
+    color: blue;
+
+
+
+}
+
+
+
+.range_bar_label {
+
+    margin-top: 50px;
+
+    color: dodgerblue;
+
+    font-size: 18px;
+
+
+
+
+}
+
+
+.comment_read{
+
+    height: 300px;
+
+    border: solid;
+
+
+
+}
+
+
+
+.comment_read_nav{
+
+    height: 3px;
+    width: 80%;
+
+    background-color: #969696;
+
+
+    margin-top: 10px;
+
+
+}
+
+
+.comment_read_nav_director{
+    float: left;
+
+    height: inherit;
+    background-color: #15c578;
+
+    width: 80%;
+
+
+}
+
+
+
+.comment_read_nav_artist{
+    float: left;
+
+    height: inherit;
+    background-color: #15c578;
+
+    width: 80%;
+
+
+}
+
+
+
+.comment_read_nav_filmname{
+    float: left;
+
+    height: inherit;
+    background-color: #15c578;
+
+    width: 80%;
+
+
+}
+
+
+
+.comment_picture{
+
+    border-radius: 50%;
+    margin-top: 10%;
+
+
+
+
+}
+
+
+.text_comment{
+
+    width: 100%;
+
+    border-radius: 4px;
+
+    height: 220px;
+    border: solid;
+
+    margin-top: 20px;
+
+
+}
+
+
+
+

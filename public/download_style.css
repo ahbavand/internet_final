@@ -1,0 +1,823 @@
+
+
+
+@font-face {
+    font-family: 'shabnam';
+    src:url('fonts/shabnam-light.eot') format('eot'),
+    url('fonts/shabnam-light.woff') format('woff'),
+    url('fonts/shabnam-light.ttf') format('truetype');
+}
+
+
+*{
+
+
+    direction: rtl;
+  /*  box-sizing: border-box;
+*/
+
+
+}
+
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+
+body::-webkit-scrollbar-thumb {
+    background-color: blue;
+}
+
+
+
+.inline{
+
+
+    overflow: hidden;
+
+
+}
+
+
+.list_bar {
+
+    font-size: 14px;
+
+
+    background-color: white;
+    border: solid;
+    border-color: #DFDCDB;
+    border-top: none;
+    border-right: none ;
+    border-left: none;
+    padding-bottom: 10px;
+
+
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 160px;
+    text-align: center;
+
+    float: right;
+    list-style-type: none;
+
+
+
+}
+
+
+
+
+.list_bar:hover{
+
+    border-color: black ;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.download_list_button{
+    margin-right: 10%;
+    border-color: black;
+
+
+}
+
+
+
+.top{
+
+    margin-top: 40px;
+}
+
+
+.top_right{
+    float: right;
+    margin-right: 13%;
+
+}
+
+
+.top_right_top{
+
+    font-size: 18px;
+
+    color: #15c578;
+
+
+
+}
+.top_right_middle{
+
+    height: 3px;
+
+    background-color: #969696;
+
+
+    font-size: 20px;
+    margin-top: 10px;
+
+
+}
+
+
+.top_right_middle_left{
+    float: left;
+
+    height: inherit;
+    background-color: #15c578;
+
+    width: 80%;
+
+
+}
+
+
+
+.top_right_down{
+
+    font-size: 20px;
+
+
+    color: darkgrey;
+}
+
+
+.top_middle{
+    float: right;
+    margin-right: 7%;
+    text-align: justify ;
+
+
+    width: 18%;
+}
+
+.simple_text1{
+    color:deepskyblue;
+    font-size: 22px;
+}
+
+
+.top_left{
+
+    float: right;
+    margin-right: 8%;
+
+
+
+}
+
+
+.paragraph_left{
+    position: relative;
+    bottom: 20px;
+    width: 80%;
+    color: #cccccc;
+    text-align: center;
+
+    font-size: 20px;
+
+
+}
+
+.button_left{
+    position: relative;
+    bottom: 20px;
+    right: 18%;
+
+    width: 40%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+
+.button_left:hover{
+
+    background-color: dodgerblue;
+
+
+}
+
+
+.line{
+
+    position: relative;
+    top: 15px;
+
+
+
+
+    clear: both;
+    width: 84%;
+    border: 0;
+    height: 2px;
+    background-color: #cccccc;
+
+}
+
+.select_menu{
+
+}
+
+
+
+.select_button {
+    background-color: white;
+    text-align: right;
+    border-radius: 5px;
+    border-color: darkgrey;
+    border-style: solid;
+    margin-top: 87px;
+    margin-left: 5px;
+    width: 180px;
+    height: 40px;
+    font-size: 16px;
+    border: solid;
+    border-width: thin;
+    border-color: #cccccc;
+
+
+
+
+}
+
+
+.language{
+
+
+    margin-right: 10%;
+
+
+}
+
+.lang_text{
+
+    padding-right: 8px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-right: 2px;
+
+    border:inherit;
+    border-radius: 5px;
+    border-color: midnightblue;
+
+
+
+
+}
+
+
+
+.button_name{
+    margin-right: 10px;
+    margin-left: 10px;
+
+    text-align: right;
+    color:darkgrey ;
+}
+
+
+.selected{
+
+    color: white;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom: 8px;
+    padding-top: 3px;
+
+    width: 50px;
+    height: 80%;
+    background-color:blue;
+    border-radius: 4px;
+
+}
+
+.display_button{
+
+    width: 3%;
+    height: 40px;
+    font-size: 22px;
+    position: relative;
+    top: 2px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: #cccccc;
+    color: #cccccc;
+    border-style: solid;
+    margin-left: 1%;
+    border-width: thin;
+
+
+}
+
+.display_button1{
+    margin-right: 15%;
+
+
+}
+
+
+
+
+.question_batuuon{
+
+
+    font-size: 20px;
+    text-align: right;
+    background-color: white;
+    border: none;
+    color: orange;
+
+}
+
+
+.chek_select{
+
+    padding-top: 3%;
+    padding-right: 78%;
+
+
+
+
+
+
+}
+
+.pishnahad{
+
+    margin-left: 7%;
+}
+
+
+.radio_chek{
+    margin-left: 3%;
+
+
+
+}
+
+.line_seprator{
+
+    padding-top: 2%;
+}
+
+.movie_quality_type{
+    color:blue;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10%;
+    border-bottom-style: solid;
+    padding-bottom: 3px;
+
+
+
+}
+
+.line_line_seprator{
+    margin-top: 5px;
+
+    margin-right: 10%;
+    margin-left: 9%;
+    height: 1px;
+    border: 0;
+    background-color: blue;
+
+}
+
+.download_film{
+
+}
+
+
+
+.movie_download_line_1{
+    padding-right: 0%;
+
+    overflow: hidden;
+    margin-right: 10%;
+    margin-left: 9%;
+    border-radius: 6px;
+
+
+
+
+}
+
+
+.movie_download_line_li{
+    border: solid;
+    border-right: none;
+    border-left: none;
+    border-width: thin;
+
+
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    text-align: center;
+
+
+    float: right;
+    list-style-type: none;
+    height: 40px;
+
+
+
+
+}
+
+
+
+.text_simple{
+    position: relative;
+    top: 5px;
+
+
+}
+
+.movie_download_line_li1{
+    border-color: black;
+
+
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 12%;
+
+
+
+}
+
+
+.movie_download_line_li2{
+
+    border-color: #1A1717;
+
+
+
+    background-color: #1A1717;
+    color: white;
+    font-size: 20px;
+    width: 6%
+}
+
+.movie_download_line_li3{
+
+
+    border-color:#3E3939;
+
+    background-color: #3E3939;
+    color: white;
+    font-size: 20px;
+    width: 6%
+}
+
+
+.movie_download_line_li4{
+
+    border-color: #0c9;
+
+
+
+    background-color: white;
+    font-size: 20px;
+    width: 6%;
+    list-style-type: none;
+
+
+}
+
+
+
+.movie_download_line_li5{
+
+
+
+
+    border-color: #0c9;
+
+
+    font-size: 16px;
+    width: 29%
+
+}
+
+
+.movie_download_line_li6{
+
+    border-color: #0c9;
+
+
+
+
+    background-color: white;
+    font-size: 18px;
+    width:9%
+
+}
+
+
+
+
+.movie_download_line_li7{
+
+    border-color: #0c9;
+
+
+
+    background-color: white;
+    font-size: 18px;
+    width:9%
+
+}
+
+
+
+
+.movie_download_line_li8{
+
+
+    border-color: #0c9;
+
+    background-color: white;
+    font-size: 18px;
+    width:5%;
+    color: #0c9;
+
+}
+
+
+
+.movie_download_line_li9{
+
+    border-color: #0c9;
+
+
+    background-color: #0c9;
+    width:18%;
+    color: white;
+
+}
+
+.p_of_v{
+
+    font-size: 20px;
+
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+
+
+}
+.q_ov_v{
+    font-size: 16px;
+
+
+}
+
+.movie_download_line2_li {
+
+    border-color: #f8d40e;
+
+}
+
+
+
+.movie_download_line2_li9{
+
+    background-color: #f8d40e;
+
+}
+
+
+
+.movie_download_line2_li8{
+
+   color: #f8d40e;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.download_music{
+
+}
+
+
+
+.music_download_line_1{
+    padding-right: 0%;
+
+    overflow: hidden;
+    margin-right: 10%;
+    margin-left: 9%;
+    border-radius: 6px;
+
+
+
+
+}
+
+
+.music_download_line_li{
+    border: solid;
+    border-right: none;
+    border-left: none;
+    border-width: thin;
+
+
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    text-align: center;
+
+
+    float: right;
+    list-style-type: none;
+    height: 40px;
+
+
+
+
+}
+
+
+
+.text_simple{
+    position: relative;
+    top: 5px;
+
+
+}
+
+.music_download_line_li1{
+    border-color: black;
+
+
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 12%;
+
+
+
+}
+
+
+.music_download_line_li2{
+
+    border-color: #1A1717;
+
+
+
+    background-color: #1A1717;
+    color: white;
+    font-size: 20px;
+    width: 6%
+}
+
+.music_download_line_li3{
+
+
+    border-color:#3E3939;
+
+    background-color: #3E3939;
+    color: white;
+    font-size: 20px;
+    width: 6%
+}
+
+
+
+.music_download_line_li4{
+
+    border-color: #0c9;
+
+
+
+    background-color: white;
+    font-size: 20px;
+    width: 6%;
+    list-style-type: none;
+
+
+}
+
+
+
+
+.music_download_line_li5{
+
+    text-align: right;
+
+
+
+
+    border-color: #0c9;
+
+
+    font-size: 18px;
+    width: 29%
+
+}
+
+
+
+
+
+.music_download_line_li6{
+
+    border-color: #0c9;
+
+
+
+
+    background-color: white;
+    font-size: 18px;
+    width:23%
+
+}
+
+
+
+.music_download_line_li7{
+
+    border-color: #0c9;
+
+
+    background-color: #0c9;
+    width:18%;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
